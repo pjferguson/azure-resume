@@ -6,5 +6,9 @@
       "AzureResumeConnectionStr": "AccountEndpoint=https://db-resume.documents.azure.com:443/;AccountKey=HxNmdOFdrVbiZE9cIgPDCJmlpGwXYftmgvzLmurYtjigxkgC1oCDmk8dRbYcpDks6Srjh9RJrRtAACDbsEQuGw==",
       "AzureWebJobsStorage": "<azure-storage-connection-string>",
       "AzureWebJobsFeatureFlags": "EnableWorkerIndexing"
+    },
+    "Host": {
+      "CORS": "*",
+      "CORSCredentials": false
     }
   }

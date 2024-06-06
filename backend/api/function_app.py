@@ -20,7 +20,7 @@ def GetResumeCounter(req: func.HttpRequest) -> func.HttpResponse:
         item['counter'] += 1
         container.replace_item(item=item_id, body=item)
 
-        return func.HttpResponse(body=json.dumps({"message": "Item updated successfully.", "counter": item["counter"]}), status_code=200, mimetype="application/json")
+        return func.HttpResponse(body=json.dumps({"id": item_id, "counter": item["counter"]}, indent=4), status_code=200, mimetype="application/json")
     except Exception as e:
         logging.error(f"Error updating item: {e} ")
         return func.HttpResponse(body=json.dumps({"error":"Error updating item."}), status_code=500, mimetype="application/json")
