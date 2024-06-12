@@ -23,8 +23,6 @@ The Azure-resume project is a personal resume website hosted on Azure. It includ
 ### Azure Functions and Virtual Environments
 - Created and triggered an Azure function that was run locally.
 - Explored Azure functions and their triggers, input bindings, and output bindings.
-- Worked with local.settings.json for storing secrets and keys locally.
-- Created a class on a separate file, it holds two objects, id, and count.
 
 ### Cosmos DB
 - Reviewed Microsoft Learn material regarding Cosmos DB.
