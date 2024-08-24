@@ -3,7 +3,7 @@ This is my custom Azure resume, created as part of the [ACG project video.](http
 
 ## Project Overview
 
-The Azure-resume project is a personal resume website hosted on Azure. It includes a visitor counter, which is implemented using Azure Functions. The backend and frontend code comes from: https://github.com/ACloudGuru-Resources/acg-project-azure-resume-starter
+The Azure-resume project is a personal resume website hosted on Azure. It includes a visitor counter, which is implemented using Azure Functions.
 
 ## Progress and Learnings
 
